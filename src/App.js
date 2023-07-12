@@ -1,10 +1,19 @@
 import './App.css';
+import Header from './Header'
+import Footer from './Footer'
+import Main from './Main'
+
+
+
 
 function App() {
   return (
-    <div>
-      <h1>HomePage</h1>
-    </div>
+    <>
+    <Header>
+    </Header>
+    <Main></Main>
+    <Footer></Footer>
+    </>
   );
 }
 
