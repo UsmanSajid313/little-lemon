@@ -1,0 +1,148 @@
+.specials h1 {
+    color: black;
+    font-size: 50px;
+}
+
+#price {
+    color: orange;
+    font-weight: bolder;
+}
+
+.specials p {
+    color: black;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.specials img {
+    height: 48%;
+    border-radius: 10px;
+
+}
+
+.specials h5 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.card {
+    background-color: #EDEFEE;
+    border-radius: 10px;
+}
+
+.specials a {
+    text-decoration: none;
+    color: gray;
+    font-size: 18px;
+}
+
+.specials a:hover {
+    color: blue;
+}
+
+.menu {
+    background-color: #F4CE14;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0px 20px;
+}
+
+.menu :hover {
+    background-color: orange;
+}
+
+@media(max-width:1190px) {
+    .card{
+        max-height: 500px;
+    }
+    .specials img{
+        width:295px;
+        height: 195px;
+    }
+    .specials p {
+        width: 270px;
+        word-wrap: break-word;
+    }
+    .specials h5 {
+        font-size: 25px;
+    }
+}
+
+@media(max-width:920px) {
+    .specials img {
+        width: 300px;
+        height: 210px;
+    }
+
+    .specials p {
+        width: 250px;
+        word-wrap: break-word;
+        font-size: 20px;
+    }
+
+    .specials h5{
+        font-size: 22px;
+    }
+
+    .card {
+        max-width: 300px;
+        justify-content: center;
+    }
+    .specials a {
+        font-size: 18px;
+    }
+}
+
+@media(max-width:768px) {
+
+    .card {
+        max-width: 320px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .specials1 {
+        padding-top: 130px;
+    }
+
+    .menu {
+        margin-top: 25px;
+    }
+
+    .specials img {
+        width: 320px;
+    }
+
+    .specials h1 {
+        font-size: 40px;
+    }
+    .specials p {
+        width: 280px;
+        word-wrap: break-word;
+    }
+
+}
+
+@media(max-width:500px) {
+
+    .specials1 {
+        padding-top: 130px;
+    }
+
+    .menu {
+        margin-top: 25px;
+    }
+
+    .specials img {
+        width: 70vw;
+    }
+
+    .specials h1 {
+        font-size: 40px;
+    }
+    .specials p {
+        width: 60vw;
+        word-wrap: break-word;
+    }
+
+}

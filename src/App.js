@@ -1,22 +1,16 @@
-import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from './Header';
-import Main from './Main';
-import Footer from './Footer';
-import Payment from './Payment'
-
+import Header from "./Header.js";
+import Highlights from "./Highlights.js";
+import Specials from "./Specials.js";
+import { BrowserRouter as Router} from "react-router-dom";
 
 
 
 function App() {
-  return (
+  return(
     <Router>
-      <Header/>
-      <Routes>
-        <Route path="/" element={<Main/>}/>
-        <Route path="/reservations" element={<Payment/>}/>
-      </Routes>
-      <Footer/>
+    <Header/>
+    <Highlights/>
+    <Specials/>
     </Router>
   );
 }
